@@ -1,0 +1,78 @@
+
+ body{
+    font-family: "Varela Round", sans-serif  ;
+    margin-top: 10px; margin-left: 8px; margin-right: 20px;
+    color: black;
+    background-color: #F2F2F2;
+    font-size: 20px;
+    text-align: justify;
+
+    
+    
+}
+
+.header img {
+    position: relative;
+    top: 15px;
+    float: left;
+    width: 160px;
+    height: 80px;
+    /* background: #555; */
+  }
+
+  .header h1 {
+    position: relative;
+    top: 10px;
+    left: 45px;
+    text-align: left;
+  }
+
+  .topnav {
+    background-color: rgb(180, 179, 179);
+    overflow: hidden;
+    border-color: white;
+    
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: rgb(31, 31, 30);
+    color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: rgb(61, 59, 59);
+    color: white;
+}
+
+.nombres {
+    font-size: 20px;
+    text-align: center;
+}
+
+div{
+    padding-left: 30px; padding-right: 30px;
+}
+
+
+h2{
+    margin: auto;
+    font-size: 30px;
+}
+
+#nombreAlumno {
+    padding-top: 30px;
+    font-size: 40px;
+
+}
