@@ -10,13 +10,27 @@
     
     
 }
+.disenio table{
 
+    padding-left: 50px;
+
+}
+ .column {
+     flex: 25%;
+     align-content: baseline;
+     height: 100px;
+ }
+
+ /* Clear floats after the columns */
+ .row{
+     display: flex;
+ }
 .header img {
     position: relative;
     top: 15px;
     float: left;
-    width: 160px;
-    height: 80px;
+    width: 300px;
+    height: 150px;
     /* background: #555; */
   }
 
@@ -24,7 +38,8 @@
     position: relative;
     top: 10px;
     left: 45px;
-    text-align: left;
+    padding-left: 400px;
+      padding-top: 50px;
   }
 
   .topnav {
@@ -33,7 +48,20 @@
     border-color: white;
     
 }
+#myCanvas{
+    width: 1490px;
+    height: 700px;
+    border: 10px solid #000000
 
+}
+#myCanvas2{
+
+    width: 1490px;
+    height: 700px;
+    border: 10px solid #000000
+
+
+}
 /* Style the links inside the navigation bar */
 .topnav a {
     float: left;
@@ -58,9 +86,14 @@
 
 .nombres {
     font-size: 20px;
-    text-align: center;
+    padding-left: 1300px;
 }
+.productos img{
 
+    height: 200px;
+    width: 300px;
+
+}
 div{
     padding-left: 30px; padding-right: 30px;
 }
@@ -70,9 +103,18 @@ h2{
     margin: auto;
     font-size: 30px;
 }
-
+button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
 #nombreAlumno {
-    padding-top: 30px;
-    font-size: 40px;
+
+    font-size: 30px;
+    padding-left: 1200px;
 
 }

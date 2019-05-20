@@ -1,10 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <title>H.D.A Mangueras Hidraulicas</title>
 
+</head>
+<body >
+<div class="topnav">
+    <a class="active" href="MainPage.html">Inicio</a>
+    <a href="SecondPage.html">Grafico Ventas</a>
+    <a href="ThirdPage.html">Grafico Compras</a>
+</div>
+<h1>
+    Grafico de Ventas
+</h1>
+<hr>
+
+<div class="row">
+    <div class="column">
+        <h3>Marca</h3>
+        <select>
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="opel">Opel</option>
+            <option value="audi">Audi</option>
+        </select>
+    </div>
+    <div class="column">
+        <h3>Modelo</h3>
+        <select>
+            <option value="modelo1">Modelo1</option>
+            <option value="modelo2">Modelo2</option>
+            <option value="modelo3">Modelo3</option>
+            <option value="modelo4">Modelo4</option>
+        </select>
+    </div>
+    <div class="column">
+        <h3>Manguera</h3>
+        <select>
+            <option value="manguera1">Manguera1</option>
+            <option value="manguera2">Manguera2</option>
+            <option value="manguera3">Manguera3</option>
+            <option value="manguera4">Manguera4</option>
+        </select>
+    </div>
+    <div class="column">
+        <button>Calcular</button>
+    </div>
+</div>
+<hr>
+
+<canvas id="myCanvas2">
+</canvas>
+<script>
+    var c = document.getElementById("myCanvas2");
+    var ctx = c.getContext("2d");
+    ctx.font = "30px Arial";
+    ctx.strokeText("Hello World", 10, 50);
+</script>
 </body>
 </html>
