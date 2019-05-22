@@ -1,0 +1,122 @@
+
+ body{
+    font-family: "Varela Round", sans-serif  ;
+    margin-top: 10px; margin-left: 8px; margin-right: 20px;
+    color: black;
+    background-color: #F2F2F2;
+    font-size: 20px;
+    text-align: justify;
+
+    
+    
+}
+.disenio table{
+
+    padding-left: 50px;
+
+}
+ .column {
+     flex: 25%;
+     align-content: baseline;
+     height: 100px;
+ }
+
+ /* Clear floats after the columns */
+ .row{
+     display: flex;
+ }
+.header img {
+    position: relative;
+    top: 15px;
+    float: left;
+    width: 300px;
+    height: 150px;
+    /* background: #555; */
+  }
+
+  .header h1 {
+    position: relative;
+    top: 10px;
+    left: 45px;
+    padding-left: 400px;
+      padding-top: 50px;
+  }
+
+  .topnav {
+    background-color: rgb(180, 179, 179);
+    overflow: hidden;
+    border-color: white;
+    
+}
+#myCanvas{
+    width: 1490px;
+    height: 700px;
+    border: 10px solid #000000
+
+}
+#myCanvas2{
+
+    width: 1490px;
+    height: 700px;
+    border: 10px solid #000000
+
+
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: rgb(31, 31, 30);
+    color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: rgb(61, 59, 59);
+    color: white;
+}
+
+.nombres {
+    font-size: 20px;
+    padding-left: 1300px;
+
+}
+.productos img{
+
+    height: 200px;
+    width: 300px;
+
+}
+div{
+    padding-left: 30px; padding-right: 30px;
+}
+
+
+h2{
+    margin: auto;
+    font-size: 30px;
+}
+button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+#nombreAlumno {
+
+    font-size: 30px;
+    padding-left: 1200px;
+    padding-top: 70px;
+
+}
